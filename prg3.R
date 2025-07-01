@@ -1,0 +1,12 @@
+data<-c(23,45,56,67,34,89,12,78,54,60)
+cat("mean",mean(data),"\n")
+cat("median",median(data),"\n")
+cat("mode",as.numeric(names(sort(table(data),decreasing=TRUE)[1])),"\n")
+cat("min",min(data),"\n")
+cat("max",max(data),"\n")
+cat("range",range(data),"\n")
+cat("standerd deviation",sd(data),"\n")
+cat("variance",var(data),"\n")
+cat("summary_stat",summary(data),"\n")
+cat("quantile",quantile(data),"\n")
+
